@@ -1,7 +1,7 @@
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import '../css/style.css';
-import { putDb, getDb } from './database';
+
 
 const main = document.querySelector('#main');
 main.innerHTML = '';
@@ -32,4 +32,3 @@ if ('serviceWorker' in navigator) {
   console.error('Service workers are not supported in this browser.');
 }
 
-// registerSW();

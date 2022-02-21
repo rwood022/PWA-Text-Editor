@@ -37,6 +37,8 @@ module.exports = () => {
         theme_color: "blue",
         start_url: "/",
         publicPath: "/",
+        fingerprints: false,
+        inject: true,
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
@@ -65,6 +67,9 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
+
+              // plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+
             },
           },
         },
