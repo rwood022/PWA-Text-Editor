@@ -30,7 +30,21 @@ module.exports = () => {
       }),
 
       new WebpackPwaManifest({
-        template: ""
+        name: "JATE",
+        short_name: "jate",
+        description: "Text Editor App",
+        background_color: "blue",
+        theme_color: "blue",
+        start_url: "/",
+        publicPath: "/",
+        icons: [
+          {
+            src: path.resolve("src/images/logo.png"),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join("src", "icons"),
+          }
+        ]
+
       })
     ],
 
