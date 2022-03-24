@@ -10,9 +10,10 @@ I wanted to showcase my ability to develop a PWA using webpack configuration, se
 This application will allow the user save the text edit on their computer and use the editor offline.
 I learned the developmental processs of a PWA and the importance of reading documentation.
 
-# Visuals
-<img rel="/images/landingpage.png" alt="landing page from heroku"/>
-
+## Visuals
+<img src="/images/landingpage.png" alt="landing page from heroku"/>
+<img src="/images/installationpromptbox.png" alt="install prompt box"/>
+<img src="/images/downloadedtodesktop.png" alt="downloaded to desktop"/>
 
 
 ## Installation
