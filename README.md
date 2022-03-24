@@ -1,5 +1,8 @@
 # PWA-Text-Editor
 
+Check it out!  https://pwa-text-edit.herokuapp.com/
+
+
 
 ## Description
 PWA (Progressive Web Applications) are becoming a useful tool for developers. They allow data to be saved on the users computer and do not take up space in the database.
@@ -7,7 +10,10 @@ I wanted to showcase my ability to develop a PWA using webpack configuration, se
 This application will allow the user save the text edit on their computer and use the editor offline.
 I learned the developmental processs of a PWA and the importance of reading documentation.
 
-## Table of Contents
+# Visuals
+<img rel="/images/landingpage.png" alt="landing page from heroku"/>
+
+
 
 ## Installation
 The user may open the Text Editor by copy-pasting the Heroku URL to your broswer. Press the install button and open the Text Editor on your computer and start typing!
